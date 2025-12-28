@@ -1,0 +1,23 @@
+# Kernel files (added during build)
+Image.gz
+Image.gz-dtb
+Image
+zImage
+dtb
+dtb.img
+dtbo.img
+*.img
+
+# Build artifacts
+*.zip
+split_img/
+ramdisk/
+modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
