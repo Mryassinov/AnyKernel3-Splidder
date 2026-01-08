@@ -6,7 +6,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Kernel Splidder v1.1 with KernelSU-Next v3.0.0 by Mryassinov
+kernel.string=Kernel Splidder by Mryassinov
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -48,12 +48,6 @@ PATCH_VBMETA_FLAG=auto;
 dump_boot;
 
 # begin ramdisk changes
-
-# KernelSU integration check
-if [ -f "$RAMDISK/overlay.d/sbin/ksud" ]; then
-  ui_print " ";
-  ui_print "- KernelSU daemon detected in ramdisk";
-fi
 
 # end ramdisk changes
 
